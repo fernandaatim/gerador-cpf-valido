@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #FFFFFF;
+  font-family: "Arial";
+  background-color: #1e1e1e;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+.container {
+  background-color: #181818;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 30%;
+  height: 200px;
+  border-radius: 0.5rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-1 {
+  flex: 0 0 8.33%;
+  max-width: 8.33%;
+}
+
+.col-2 {
+  flex: 0 0 16.67%;
+  max-width: 16.67%;
+}
+
+.col-3 {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.col-4 {
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+}
+
+.col-5 {
+  flex: 0 0 41.67%;
+  max-width: 41.67%;
+}
+
+.col-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.col-7 {
+  flex: 0 0 58.33%;
+  max-width: 58.33%;
+}
+
+.col-8 {
+  flex: 0 0 66.67%;
+  max-width: 66.67%;
+}
+
+.col-9 {
+  flex: 0 0 75%;
+  max-width: 75%;
+}
+
+.col-10 {
+  flex: 0 0 83.33%;
+  max-width: 83.33%;
+}
+
+.col-11 {
+  flex: 0 0 91.67%;
+  max-width: 91.67%;
+}
+
+.col-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  outline: none;
+  margin-bottom: 0.5rem;
+}
+
+label {
+  font-size: 20px;
+  padding: 2rem;
+}
+
+button {
+  width: 80%;
+  padding: 10px;
+  color: white;
+  background-color: indigo;
+  font-size: 20px;
+  box-sizing: border-box;
+  border: 1px solid indigo;
+  outline: none;
+  margin-top: 1rem;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgba(146, 51, 255, 0.3843137255);
+}
+
+.form {
+  width: 100%;
+}
+
+/*# sourceMappingURL=main.css.map */
