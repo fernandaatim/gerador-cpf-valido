@@ -10,3 +10,5 @@ import './assets/css/main.css'
         cpfGerado.innerHTML = gera.geraNovoCpf();
     });
 })();
+
+//a
